@@ -9,7 +9,7 @@ on:
 jobs:
   prettier:
     name: prettier
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -22,7 +22,7 @@ jobs:
 
   super-linter:
     name: super-linter
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -40,7 +40,7 @@ jobs:
 
   build-latex:
     name: build-latex
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -51,7 +51,7 @@ jobs:
           root_file: resume.tex
           latexmk_use_lualatex: true
       - name: Upload resume.pdf
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: resume
           path: src/resume.pdf
@@ -64,14 +64,14 @@ jobs:
       - prettier
       - super-linter
       - build-latex
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
         with:
           persist-credentials: false
       - name: Download resume.pdf from build-latex
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: resume
       - name: Setup Node.js
@@ -101,10 +101,10 @@ jobs:
     if: github.ref == 'refs/heads/main'
     needs:
       - release
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Download resume.pdf from build-latex
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: resume
       - name: Deploy to gh-pages branch
