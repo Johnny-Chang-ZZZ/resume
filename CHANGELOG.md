@@ -1,3 +1,9 @@
+## [2.3.0](https://github.com/Johnny-Chang-ZZZ/resume/compare/v2.2.1...v2.3.0) (2026-08-18)
+
+### Features
+
+* add GitHub link to resume header ([24ee23e](https://github.com/Johnny-Chang-ZZZ/resume/commit/24ee23e9cb3e1eafc7c81493f25159c10e6abf56))
+
 ## [2.2.1](https://github.com/Johnny-Chang-ZZZ/resume/compare/v2.2.0...v2.2.1) (2026-08-18)
 
 ### CI
