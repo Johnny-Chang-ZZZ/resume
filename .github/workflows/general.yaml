@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@a37ce9120846195fa4ece8f58b268e6043cb2f26 # v3
       - name: Run prettier checks
         run: npx --yes prettier@2.7.1 --check "**/*.{yaml,json,md}"
 
@@ -21,9 +21,9 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@a37ce9120846195fa4ece8f58b268e6043cb2f26 # v3
       - name: Run super linter
-        uses: github/super-linter/slim@v4
+        uses: github/super-linter/slim@985ef206aaca4d560cb9ee2af2b42ba44adc1d55 # v4
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -39,15 +39,15 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@a37ce9120846195fa4ece8f58b268e6043cb2f26 # v3
       - name: Compile latex documents
-        uses: xu-cheng/latex-action@v2
+        uses: xu-cheng/latex-action@8c9adec310ed05afa3650bd2727d1e71ca1dfd0d # v2
         with:
           working_directory: src
           root_file: resume.tex
           latexmk_use_lualatex: true
       - name: Upload resume.pdf
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: resume
           path: src/resume.pdf
@@ -63,15 +63,15 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@a37ce9120846195fa4ece8f58b268e6043cb2f26 # v3
         with:
           persist-credentials: false
       - name: Download resume.pdf from build-latex
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
         with:
           name: resume
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@3235b876344d2a9aa001b8d1453c930bba69e610 # v3
         with:
           node-version: '20'
       - name: Release
@@ -100,11 +100,11 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Download resume.pdf from build-latex
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
         with:
           name: resume
       - name: Deploy to gh-pages branch
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@373f7f263a76c20808c831209c920827a82a2847 # v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
