@@ -1,3 +1,14 @@
+## [2.2.1](https://github.com/Johnny-Chang-ZZZ/resume/compare/v2.2.0...v2.2.1) (2026-08-18)
+
+### CI
+
+* disable semantic-release issue/PR comments ([b9b7b07](https://github.com/Johnny-Chang-ZZZ/resume/commit/b9b7b07d46594571c3694a8687046c0d1b28eb82)), closes [#18](https://github.com/Johnny-Chang-ZZZ/resume/issues/18)
+* pin third-party GitHub Actions to commit SHA ([bc38932](https://github.com/Johnny-Chang-ZZZ/resume/commit/bc3893224fac41fbb9b7e4ee454d97cece40f8fb))
+
+### Bug Fixes
+
+* remove overlap between consecutive work experience entries ([e812025](https://github.com/Johnny-Chang-ZZZ/resume/commit/e812025e032d569240ff9ca2003a629f170146bc))
+
 ## [2.2.0](https://github.com/Johnny-Chang-ZZZ/resume/compare/v2.1.0...v2.2.0) (2026-08-18)
 
 ### Build
