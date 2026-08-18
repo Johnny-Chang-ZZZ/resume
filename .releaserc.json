@@ -39,7 +39,9 @@
             "label": "resume.pdf",
             "name": "resume.pdf"
           }
-        ]
+        ],
+        "successComment": false,
+        "failComment": false
       }
     ]
   ]
