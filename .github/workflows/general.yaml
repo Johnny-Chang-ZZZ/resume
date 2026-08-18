@@ -81,10 +81,10 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_GITHUB_TOKEN }}
-          GIT_AUTHOR_NAME: kirintwn
-          GIT_AUTHOR_EMAIL: cy91244@gmail.com
-          GIT_COMMITTER_NAME: kirintwn
-          GIT_COMMITTER_EMAIL: cy91244@gmail.com
+          GIT_AUTHOR_NAME: Johnny Chang
+          GIT_AUTHOR_EMAIL: johnnychang3662633@gmail.com
+          GIT_COMMITTER_NAME: Johnny Chang
+          GIT_COMMITTER_EMAIL: johnnychang3662633@gmail.com
         run: |
           npx \
             -p @semantic-release/commit-analyzer \

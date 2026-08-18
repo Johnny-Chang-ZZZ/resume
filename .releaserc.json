@@ -1,6 +1,6 @@
 {
   "branches": ["main"],
-  "repositoryUrl": "git@github.com:kirintwn/resume.git",
+  "repositoryUrl": "git@github.com:Johnny-Chang-ZZZ/resume.git",
   "plugins": [
     "@semantic-release/commit-analyzer",
     [
