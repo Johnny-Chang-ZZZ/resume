@@ -1,3 +1,13 @@
+## [2.5.0](https://github.com/Johnny-Chang-ZZZ/resume/compare/v2.4.0...v2.5.0) (2026-08-18)
+
+### Documentations
+
+* fix tense consistency and grammar in resume content ([3c7d0e2](https://github.com/Johnny-Chang-ZZZ/resume/commit/3c7d0e259b7777e08d97e0d0b5ac800d45563f56))
+
+### Features
+
+* add Azure->GitHub migration, cost optimization, and deployment automation to Viewsonic ([736835f](https://github.com/Johnny-Chang-ZZZ/resume/commit/736835f21fed8e96b453618afb582df496e097d0))
+
 ## [2.4.0](https://github.com/Johnny-Chang-ZZZ/resume/compare/v2.3.0...v2.4.0) (2026-08-18)
 
 ### Features
