@@ -1,3 +1,9 @@
+## [2.4.0](https://github.com/Johnny-Chang-ZZZ/resume/compare/v2.3.0...v2.4.0) (2026-08-18)
+
+### Features
+
+* add AWS and Terraform to Infrastructure skills ([ca25bfe](https://github.com/Johnny-Chang-ZZZ/resume/commit/ca25bfefb4399c3cf5884470f7fb7037bc985531))
+
 ## [2.3.0](https://github.com/Johnny-Chang-ZZZ/resume/compare/v2.2.1...v2.3.0) (2026-08-18)
 
 ### Features
