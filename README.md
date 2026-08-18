@@ -1,13 +1,13 @@
-# Kirin Hou's Resume
+# Johnny Chang's Resume
 
-[![Release](https://img.shields.io/github/release/kirintwn/resume.svg?style=for-the-badge)](https://github.com/kirintwn/resume/releases/latest)
+[![Release](https://img.shields.io/github/release/Johnny-Chang-ZZZ/resume.svg?style=for-the-badge)](https://github.com/Johnny-Chang-ZZZ/resume/releases/latest)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=for-the-badge)](./LICENSE)
-[![Build status](https://img.shields.io/github/workflow/status/kirintwn/resume/general/main?style=for-the-badge)](https://github.com/kirintwn/resume/actions?workflow=general)
+[![Build status](https://img.shields.io/github/workflow/status/Johnny-Chang-ZZZ/resume/general/main?style=for-the-badge)](https://github.com/Johnny-Chang-ZZZ/resume/actions?workflow=general)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=for-the-badge)](https://github.com/semantic-release/semantic-release)
 
-My resume written in LaTeX based on [Awesome-CV](https://github.com/posquit0/Awesome-CV) with complete CI/CD pipline. Fully automated testing, building & release process is powered by GitHub Actions & [semantic-release](https://github.com/semantic-release/semantic-release). The output pdf can be found in the [releases section](https://github.com/kirintwn/resume/releases/latest), or the preview is available [here](https://kirintwn.github.io/resume/resume.pdf) with GitHub Pages.
+Forked from [kirintwn/resume](https://github.com/kirintwn/resume). My resume written in LaTeX based on [Awesome-CV](https://github.com/posquit0/Awesome-CV) with complete CI/CD pipline. Fully automated testing, building & release process is powered by GitHub Actions & [semantic-release](https://github.com/semantic-release/semantic-release). The output pdf can be found in the [releases section](https://github.com/Johnny-Chang-ZZZ/resume/releases/latest), or the preview is available [here](https://johnny-chang-zzz.github.io/resume/resume.pdf) with GitHub Pages.
 
-## Download: [resume.pdf](https://kirintwn.github.io/resume/resume.pdf)
+## Download: [resume.pdf](https://johnny-chang-zzz.github.io/resume/resume.pdf)
 
 ## Local Development
 
@@ -22,7 +22,7 @@ The following tools need to be installed on your system in advance:
 First clone the repository:
 
 ```shell
-git clone git@github.com:kirintwn/resume.git
+git clone git@github.com:Johnny-Chang-ZZZ/resume.git
 ```
 
 ### Test & Build Locally
