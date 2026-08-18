@@ -12,6 +12,7 @@
 
 ## Intermediate documents:
 *.dvi
+*.xdv
 *-converted-to.*
 __latexindent_temp.tex
 
