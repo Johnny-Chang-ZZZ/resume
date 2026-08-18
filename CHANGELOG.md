@@ -1,3 +1,20 @@
+## [2.2.0](https://github.com/Johnny-Chang-ZZZ/resume/compare/v2.1.0...v2.2.0) (2026-08-18)
+
+### Build
+
+* **deps:** update build dependencies ([#18](https://github.com/Johnny-Chang-ZZZ/resume/issues/18)) ([00e2676](https://github.com/Johnny-Chang-ZZZ/resume/commit/00e2676b40addf8046d36c7f52764e1b462415f1))
+
+### CI
+
+* bump release job Node.js from 16 to 20 ([870165a](https://github.com/Johnny-Chang-ZZZ/resume/commit/870165a802dea751285e6141885e6530b73775ec))
+* fix workflow using retired GitHub Actions runner and artifact actions ([dc1647b](https://github.com/Johnny-Chang-ZZZ/resume/commit/dc1647bfed9f709933dc0bab11b89ed64a22f5f8))
+* point release config at fork instead of upstream ([e2d5cd7](https://github.com/Johnny-Chang-ZZZ/resume/commit/e2d5cd7ca9e187753dabc522769c9c7b4007eaec))
+* replace unmaintained prettier_action with direct npx call ([3e2255d](https://github.com/Johnny-Chang-ZZZ/resume/commit/3e2255da285f14fb55cf00b373a211a47fba7c42))
+
+### Features
+
+* personalize resume content and attribute fork source ([77c6534](https://github.com/Johnny-Chang-ZZZ/resume/commit/77c6534e840eee0ce50bfa4a262c23067d45ff90))
+
 ## [2.1.0](https://github.com/kirintwn/resume/compare/v2.0.0...v2.1.0) (2022-05-13)
 
 
