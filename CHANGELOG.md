@@ -1,3 +1,14 @@
+## [2.5.1](https://github.com/Johnny-Chang-ZZZ/resume/compare/v2.5.0...v2.5.1) (2026-09-15)
+
+### Documentations
+
+* sharpen resume summary and fix Hibikiame bullet grammar ([bca5da6](https://github.com/Johnny-Chang-ZZZ/resume/commit/bca5da6a6a3042c15c6b4588e32351afca289ece))
+* simplify resume summary to identity and focus only ([32f28a3](https://github.com/Johnny-Chang-ZZZ/resume/commit/32f28a3dfbb9600d11084f125d862e29e1cffa8a))
+
+### Bug Fixes
+
+* update contact email in resume ([b9e4b8b](https://github.com/Johnny-Chang-ZZZ/resume/commit/b9e4b8b9a76e2a4cb4091162daf551f8a2609c7f))
+
 ## [2.5.0](https://github.com/Johnny-Chang-ZZZ/resume/compare/v2.4.0...v2.5.0) (2026-08-18)
 
 ### Documentations
